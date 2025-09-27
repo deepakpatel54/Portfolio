@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Interactive Digital Portfolio - Deepak Patel</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="logo">Deepak<span>Portfolio</span></div>
+      <nav class="nav">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="menu-toggle" aria-label="Toggle Menu">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <section id="hero" class="hero">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <h1>Hi, I'm <span id="hero-name">Deepak Patel</span></h1>
+          <p class="lead">A frontend developer who crafts clean & interactive experiences.</p>
+          <div class="hero-cta">
+            <a href="#projects" class="btn">See my work</a>
+            <a href="#contact" class="btn btn-outline">Get in touch</a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <img src="/assets/images/profile.jpeg" alt="Profile" />
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about container">
+      <h2>About Me</h2>
+      <div class="about-grid">
+        <div>
+          <p>I’m a passionate front-end developer with a strong focus on creating intuitive and responsive user
+            experiences. With a background in web design and a keen eye for detail, I specialize in HTML, CSS,
+            JavaScript, and modern frameworks like React.</p>
+          <ul>
+            <li>Location: Rajasthan</li>
+            <li>Role: Frontend Developer</li>
+            <li>Availability: Open for internships / freelance</li>
+          </ul>
+        </div>
+        <div class="about-stats">
+          <div class="stat">
+            <strong>5+</strong>
+            <span>Projects</span>
+          </div>
+          <div class="stat">
+            <strong>2+</strong>
+            <span>Years Experience</span>
+          </div>
+          <div class="stat">
+            <strong>100%</strong>
+            <span>Passion</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="skills container">
+      <h2>Skills</h2>
+      <div class="skills-list">
+        <div class="skill"><span><i class="fa-brands fa-html5"></i></span> HTML</div>
+        <div class="skill"><span><i class="fa-brands fa-css3-alt"></i></span> CSS</div>
+        <div class="skill"><span><i class="fa-brands fa-js"></i></span> JavaScript</div>
+        <div class="skill"><span><i class="fa-brands fa-react"></i></span> React</div>
+        <div class="skill"><span></span> C++</div>
+        <div class="skill"><span><i class="fa-brands fa-java"></i></span> Java</div>
+        <div class="skill"><span><i class="fa-brands fa-python"></i></span> Python</div>
+      </div>
+    </section>
+
+    <section id="projects" class="projects container">
+      <h2>Projects</h2>
+      <div class="projects-grid" id="projects-grid">
+        <!-- Projects will be injected here by js/main.js -->
+      </div>
+    </section>
+    <section id="contact" class="contact container">
+      <h2>Contact</h2>
+      <form id="contact-form" class="contact-form">
+        <label>
+          Name
+          <input type="text" name="name" required />
+        </label>
+        <label>
+          Email
+          <input type="email" name="email" required />
+        </label>
+        <label>
+          Message
+          <textarea name="message" rows="5" required></textarea>
+        </label>
+        <button type="submit" class="btn">Send Message</button>
+        <p id="form-status" class="form-status" aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>All rights reserved &copy 2025| Deepak</p>
+      <div class="socials">
+        <span><i class="fa-brands fa-github"></i></span>
+        <a href="https://github.com" target="_blank" aria-label="GitHub">GitHub</a>
+        <span><i class="fa-brands fa-linkedin"></i></span>
+        <a href="https://www.linkedin.com" target="_blank" aria-label="LinkedIn">LinkedIn</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>
