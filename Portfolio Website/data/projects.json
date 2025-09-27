@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Interactive Portfolio",
+    "description": "A dynamic portfolio showcasing projects and skills.",
+    "image": "assets/images/project1.png",
+    "link": "#"
+  },
+  {
+    "title": "Web Calculator",
+    "description": "A dynamic, user-friendly web-based calculator designed to simplify complex calculations for users.",
+    "image": "assets/images/project2.png",
+    "link": "#"
+  },
+  {
+    "title": "Netflix Clone",
+    "description": "A responsive web application replicating the core features of Netflix.",
+    "image": "assets/images/project3.png",
+    "link": "#"
+  }
+]
